@@ -28,7 +28,7 @@ AND hour > '14:00:00';
 # 6.
 SELECT * 
 FROM `degrees`
-WHERE name LIKE '%magistrale%';
+WHERE level = 'magistrale';
 
 # 7.
 SELECT count(id)
